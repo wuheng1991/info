@@ -78,7 +78,7 @@
         
         <!--个人技能-->
         
-        <div  class="skillDiv positonDiv resume_add_area resume_graph resume_sort" id="resume_graph">
+        <div  class="skillDiv positonDiv resume_add_area resume_graph resume_sort" id="resume_graph" style="display:none;">
                   <ul class="editBtn">
             <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
             <li class="btnPlus resume_add" for-key="resume_graph" data-placement="bottom" title="添加一项"></li>
@@ -129,23 +129,47 @@
               <div class="resume_lang_hobby">兴趣爱好</div>
               </span></dt>
             <dd class="resume_append_area">
-                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> <a class="resume_icon_diy icon wbdfont" for-id="resume_hobby_icon" style="font-size:none"></a> <span class="hobbyTitle">
-                        <input class="resume_value baseBorder" for-key="resume_hobby_icon" placeholder="兴趣爱好" value="篮球" />
+                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> 
+                        <!-- <a class="resume_icon_diy icon wbdfont" for-id="resume_hobby_icon" style="font-size:none"></a>  -->
+                        <span class="hobbyTitle">
+                        <input class="resume_value baseBorder" for-key="resume_hobby_icon" placeholder="兴趣爱好" value="台球" />
                         </span>
                 <div class="delete resume_delete"></div>
               </div>
-                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> <a class="resume_icon_diy icon wbdfont" for-id="9eff2552587f9d5970ebab85696208dc" style="font-size:none"></a> <span class="hobbyTitle">
-                        <input class="resume_value baseBorder" for-key="9eff2552587f9d5970ebab85696208dc" placeholder="兴趣爱好" value="足球" />
+                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> 
+                       <!--  <a class="resume_icon_diy icon wbdfont" for-id="9eff2552587f9d5970ebab85696208dc" style="font-size:none"></a>  -->
+                        <span class="hobbyTitle">
+                        <input class="resume_value baseBorder" for-key="9eff2552587f9d5970ebab85696208dc" placeholder="兴趣爱好" value="乒乓球" />
                         </span>
                 <div class="delete resume_delete"></div>
               </div>
-                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> <a class="resume_icon_diy icon wbdfont" for-id="162b8459a4a82554da5e6a12c2f21c8f" style="font-size:none"></a> <span class="hobbyTitle">
+
+              <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> 
+                        <!-- <a class="resume_icon_diy icon wbdfont" for-id="resume_hobby_icon" style="font-size:none"></a>  -->
+                        <span class="hobbyTitle">
+                        <input class="resume_value baseBorder" for-key="resume_hobby_icon" placeholder="兴趣爱好" value="羽毛球" />
+                        </span>
+                <div class="delete resume_delete"></div>
+              </div>
+
+              <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> 
+                        <!-- <a class="resume_icon_diy icon wbdfont" for-id="resume_hobby_icon" style="font-size:none"></a>  -->
+                        <span class="hobbyTitle">
+                        <input class="resume_value baseBorder" for-key="resume_hobby_icon" placeholder="兴趣爱好" value="读书" />
+                        </span>
+                <div class="delete resume_delete"></div>
+              </div>
+                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> 
+                       <!--  <a class="resume_icon_diy icon wbdfont" for-id="162b8459a4a82554da5e6a12c2f21c8f" style="font-size:none"></a> --> 
+                        <span class="hobbyTitle">
                         <input class="resume_value baseBorder" for-key="162b8459a4a82554da5e6a12c2f21c8f" placeholder="兴趣爱好" value="游戏" />
                         </span>
                 <div class="delete resume_delete"></div>
               </div>
-                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> <a class="resume_icon_diy icon wbdfont" for-id="b3cf5ddaec3cbe67762a2d8d3df17f17" style="font-size:none"></a> <span class="hobbyTitle">
-                        <input class="resume_value baseBorder" for-key="b3cf5ddaec3cbe67762a2d8d3df17f17" placeholder="兴趣爱好" value="摄影" />
+                      <div class="hobbyicon baseDel resume_delete_area resume_icon_item"> 
+                        <!-- <a class="resume_icon_diy icon wbdfont" for-id="b3cf5ddaec3cbe67762a2d8d3df17f17" style="font-size:none"></a>  -->
+                        <span class="hobbyTitle">
+                        <input class="resume_value baseBorder" for-key="b3cf5ddaec3cbe67762a2d8d3df17f17" placeholder="兴趣爱好" value="旅游" />
                         </span>
                 <div class="delete resume_delete"></div>
               </div>
@@ -162,14 +186,23 @@
             <div class="resume_msg baseBorder resume_notice resume_lang_name" notice-key="msg" for-key="name" for-value="html" contenteditable="true">吴恒</div>
           </h1>
                   <h2>
-            <div class="resume_msg baseBorder resume_notice resume_lang_job" notice-key="job" for-key="job" for-value="html" contenteditable="true">求职目标：PHP开发工程师</div>
+            <div class="resume_msg baseBorder resume_notice resume_lang_job" notice-key="job" for-key="job" for-value="html" contenteditable="true">求职目标：PHP开发相关岗位</div>
           </h2>
+
+          <!-- 个人信息开始 -->
+          
+        <div class="resume_msg baseBorder resume_notice resume_lang_job" style="font-size:16px;">
+            <p>技术博客：<a href="http://www.cnblogs.com/wuheng1991" target="_blank" style="font-size:14px;">http://www.cnblogs.com/wuheng1991/</a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            个人网站：<a href="http://www.xialan.tech" target="_blank" style="font-size:14px;">http://www.xialan.tech</a></p>
+        </div>
+          <!-- 个人消息结束 -->
                 </div>
         <div id="foo_sort"></div>
-        
+
         <!--教育背景-->
         
-        <div class="eduDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="edu" id="resume_edu" for-key="edu">
+        <div class="eduDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="edu" id="resume_edu" for-key="edu" style="margin-top:-35px;">
                   <ul class="editBtn">
             <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
             <li class="btnPlus resume_add" for-key="resume_item" data-placement="bottom" title="添加一项"></li>
@@ -195,6 +228,9 @@
                           <div class="conDisc baseBorder baseDel resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
                     <p>主修课程</p>
                     <p>C语言，C++程序设计，Java程序设计，软件工程，数据结构，计算机网络基础，软件工程，汇编语言，编译原理，操作系统，数据库系统理论，微机接口与技术等。</p>
+                    <br/>
+                    <p>英语等级：    大学英语四级</p>                    
+                    <p>荣誉与证书：      英语翻译大赛三等奖</p>
                   </div>
                         </div>
               </div>
@@ -202,7 +238,61 @@
           </dl>
                 </div>
         
-        <!--工作经历-->
+       
+        <!--IT技能-->
+        
+        <div class="workDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="work" id="resume_work" for-key="work">
+                  <ul class="editBtn">
+            <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
+            <li class="btnPlus resume_add" for-key="resume_item" data-placement="bottom" title="添加一项"></li>
+            <li class="btnDel resume_hidden" for-id="resume_work" data-placement="bottom" title="隐藏该模块"></li>
+          </ul>
+
+
+            <dl>
+                <dt> 
+                    <a class="resume_icon_diy icon wbdfont" for-id="work" style="font-size:none"></a> 
+                    <span>
+                        <div class="resume_lang_work">IT技能</div>
+                        <div class="Border resume_line" for-id="work" style="width:668px;border-top-style:solid;border-top-width:2px;"></div>
+                    </span> 
+                </dt>
+
+                <dd class="resume_append_area">
+                    <div class="baseContent baseDel resume_item_items resume_delete_area">
+                        <div class="delete resume_delete"></div>
+                       <!--  <div class="conTitle"> 
+                            <span class="conTitle_time">
+                                <div class="resume_time baseBorder" contenteditable="true">2016.10-至今</div>
+                            </span> 
+                            <span class="conTitle_company">
+                                <div class="resume_unit baseBorder" contenteditable="true">深圳市猎诚资本有限公司 / 技术部</div>
+                            </span> 
+                            <span class="conTitle_post">
+                                <div class="resume_job baseBorder" contenteditable="true">PHP开发工程师</div>
+                            </span> 
+                        </div> -->
+                        <div class="baseDel_ resume_delete_area_">
+                            <div class="delete_ resume_delete_"></div>
+                            <div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
+                                <p>1、熟练掌握PHP，HTML，CSS，Javascript，Ajax，jQuery等Web开发技术</p>
+                                <p>2、熟悉JavaScript框架Vue2基本用法</p>
+                                <p>3、熟悉MVC开发模式，熟悉使用ThinkPHP3.2，YII2框架，了解Laravel框架等</p>
+                                <p>4、熟练API接口开发</p>
+                                <p>5、熟悉使用SQL、MySQL等方式操作数据库</p>
+                                <p>6、熟悉Redis、Memcache用法</p>
+                                <p>7、熟悉GIT与SVN的基本操作</p>
+                                <p>8、熟悉Linux系统环境，能进行服务器环境的搭建与维护</p>
+                                <p>8、了解Python3基本用法</p>
+                            </div>
+                        </div>
+                    </div>
+                </dd>
+
+            </dl>
+        </div>
+
+         <!--工作经历-->
         
         <div class="workDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="work" id="resume_work" for-key="work">
                   <ul class="editBtn">
@@ -321,50 +411,6 @@
         </div>
 
 
-        <!--IT技能-->
-        
-        <div class="workDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="work" id="resume_work" for-key="work">
-                  <ul class="editBtn">
-            <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
-            <li class="btnPlus resume_add" for-key="resume_item" data-placement="bottom" title="添加一项"></li>
-            <li class="btnDel resume_hidden" for-id="resume_work" data-placement="bottom" title="隐藏该模块"></li>
-          </ul>
-
-
-            <dl>
-                <dt> 
-                    <a class="resume_icon_diy icon wbdfont" for-id="work" style="font-size:none"></a> 
-                    <span>
-                        <div class="resume_lang_work">IT技能</div>
-                        <div class="Border resume_line" for-id="work" style="width:668px;border-top-style:solid;border-top-width:2px;"></div>
-                    </span> 
-                </dt>
-
-                <dd class="resume_append_area">
-                    <div class="baseContent baseDel resume_item_items resume_delete_area">
-                        <div class="delete resume_delete"></div>
-                       <!--  <div class="conTitle"> 
-                            <span class="conTitle_time">
-                                <div class="resume_time baseBorder" contenteditable="true">2016.10-至今</div>
-                            </span> 
-                            <span class="conTitle_company">
-                                <div class="resume_unit baseBorder" contenteditable="true">深圳市猎诚资本有限公司 / 技术部</div>
-                            </span> 
-                            <span class="conTitle_post">
-                                <div class="resume_job baseBorder" contenteditable="true">PHP开发工程师</div>
-                            </span> 
-                        </div> -->
-                        <div class="baseDel_ resume_delete_area_">
-                            <div class="delete_ resume_delete_"></div>
-                            <div class="conDisc baseBorder resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
-                                <p>1、熟练掌握PHP，DIV+CSS，Javascript，Ajax，jQuery等Web开发技术</p>
-                            </div>
-                        </div>
-                    </div>
-                </dd>
-
-            </dl>
-        </div>
         
         
         <!--项目经验-->
@@ -527,7 +573,7 @@
 
         <!--语言能力-->
         
-        <div class="workDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="work" id="resume_work" for-key="work">
+        <div class="workDiv baseItem positonDiv resume_item resume_add_area resume_sort resume_notice" notice-key="work" id="resume_work" for-key="work" style="display:none;">
                   <ul class="editBtn">
             <li class="btnMove" style="cursor:move;"data-placement="top" title="拖动调整上下位置"></li>
             <li class="btnPlus resume_add" for-key="resume_item" data-placement="bottom" title="添加一项"></li>
@@ -587,11 +633,9 @@
             <dd>
                       <div class="baseContent">
                 <div class="conDisc baseBorder resume_lang_self_value resume_value" contenteditable="true" data-toggle="tooltip" data-placement="top" title="复制粘贴文字请右键-粘贴为纯文本">
-
-                          <p>1.拥有良好沟通能力，具有较强的团队开发意识</p>
-                          <p>2.对工作的中的困难敢于面对并解决实际问题</p>
-                          <p>3.项目实战使自己具备了一名合格程序员的基本职业素质</p>
-                          <p>4.刻苦认真，追求上进，利用工作业余时间提升自己基础知识与提高自身的能力<br/><br/></p>
+                          <p>1.有近3年的开发经验，能够独立发现问题并解决问题</p>
+                          <p>2.拥有良好沟通能力，具备较强的团队开发意识</p>
+                          <p>3.能够持续学习，钻研新的技术，不断提升自己</p>
                           <p/>
                         </div>
               </div>
@@ -604,7 +648,7 @@
 
     <!-- 底部开始 -->
         <div style="border:margin-top:80px;text-align:center;margin-bottom:-65px;font-size:14px;">
-            粤ICP备18004964号-1
+            © 2018 粤ICP备18004964号-1
         </div>
 
         </div>
